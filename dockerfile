@@ -1,6 +1,6 @@
 FROM node:20
 WORKDIR /usr/src/app
-COPY . .
+COPY ./SNS_SQS_S3_NodeJS .
 RUN npm install
 EXPOSE 3000
 CMD ["node", "index.js"]
